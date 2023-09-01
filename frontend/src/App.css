@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the entire viewport height is covered */
+  background-color: #efcbf7; /* Background color for the entire body */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically within .app-container */
+  align-items: center; /* Center horizontally within .app-container */
+  height: 297mm; /* Set the desired height (A4 height) */
+  width: 210mm; /* Set the desired width (A4 width) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* .toolbar {
+  display: flex;
+  padding: 8px;
+} */
+
+.editor {
+  display: flex;
+  justify-content: center; /* Center horizontally within .editor */
+  align-items: center; /* Center vertically within .editor */
+  width: 210mm; /* Set the desired width (A4 width) */
+  height: 297mm; /* Set the desired height (A4 height) */
+  margin: 20px; /* Add margin (adjust as needed) */
+}
+
+.editor-content {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f9f9f9; /* Lighter gray background for the textarea */
+}
